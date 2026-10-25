@@ -1,0 +1,47 @@
+﻿{
+    "vCenterServers":  [
+                           {
+                               "Server":  "vcenter.example.invalid",
+                               "Name":  "PROD"
+                           }
+                       ],
+    "DefaultSettings":  {
+                            "SQLTable":  "dbo.VMDeletionArchive",
+                            "SQLUsername":  "",
+                            "EnableADDeletion":  false,
+                            "SCCMSiteCode":  "",
+                            "vCenterServer":  "vcenter.example.invalid",
+                            "GroupsLinux":  "",
+                            "EmailSubjectPrefix":  "[VM Deletion]",
+                            "SMTPFrom":  "",
+                            "EmailNotification":  "",
+                            "EnableLogging":  true,
+                            "DNSServer":  "",
+                            "GroupsCommon":  "",
+                            "SMTPPort":  25,
+                            "EnableSQLArchive":  false,
+                            "EnableSCCMDeletion":  false,
+                            "DeleteFromDisk":  false,
+                            "EnableDNSDeletion":  false,
+                            "DNSZone":  "",
+                            "ConfirmDeletion":  true,
+                            "SMTPUseSSL":  false,
+                            "ADSearchBase":  "",
+                            "SQLDatabase":  "",
+                            "ADSearchBaseByEnvironment":  {
+                                                              "PROD":  ""
+                                                          },
+                            "EnableEmailNotification":  false,
+                            "SCCMServer":  "",
+                            "SQLPassword":  "",
+                            "DomainController":  "",
+                            "SMTPServer":  "",
+                            "EnableVMDeletion":  true,
+                            "PowerOffTimeout":  30,
+                            "GroupsWindows":  "",
+                            "SQLServer":  "",
+                            "AdminAlertEmail":  "",
+                            "LogPath":  "",
+                            "SQLIntegratedAuth":  true
+                        }
+}
